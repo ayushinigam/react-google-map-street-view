@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Display street view based on address",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "react-google-streetView"
+  },
+  "keywords": [
+    "street",
+    "view",
+    "map",
+    "google",
+    "address"
+  ],
+  "author": "Ayushi nigam",
+  "license": "ISC"
+}
