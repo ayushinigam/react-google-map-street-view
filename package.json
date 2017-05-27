@@ -91,7 +91,12 @@
   "keywords": [
     "react",
     "reactjs",
-    "boilerplate"
+    "boilerplate",
+    "street",
+    "view",
+    "map",
+    "google",
+    "address"
   ],
   "license": "MIT",
   "pre-push": [
