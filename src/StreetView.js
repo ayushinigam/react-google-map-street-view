@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import GoogleMapsLoader from 'google-maps';
 import { defaultMapStyle, defaultTextStyle } from './styles';
 
-export default class StreetView extends Component {
+class StreetView extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -162,3 +162,5 @@ StreetView.propTypes = {
   defaultText: PropTypes.string,
   errorText: PropTypes.string
 };
+
+export default StreetView;
