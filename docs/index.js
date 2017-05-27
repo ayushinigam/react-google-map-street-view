@@ -3,8 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import GithubCorner from 'react-github-corner';
 import { Catalog, CodeSpecimen, ReactSpecimen } from 'catalog';
+import StreetView from '../src/StreetView';
 
-import 'purecss/build/pure.css';
+// import 'purecss/build/pure.css';
 import './main.css';
 import '../style.css';
 
@@ -21,9 +22,13 @@ const pages = [
   }
 ];
 
+const key = 'AIzaSyCjyF9AD_G_2bLXCe53iE2kvLqh93QFrP8';
+
 // Catalog - logoSrc="../images/logo.png"
 ReactDOM.render(
   <div>
+    <div> yummmmy </div>
+    <StreetView address="unnao 209801" APIkey={key} streetView zoomLevel={15} />
     <GithubCorner
       href={`https://github.com/${project}`}
       bannerColor="#fff"

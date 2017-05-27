@@ -73,9 +73,9 @@
     "type": "git",
     "url": "https://github.com/ayushinigam/react-google-map-street-view.git"
   },
-  "homepage": "https://survivejs.github.io/react-component-boilerplate/",
+  "homepage": "https://github.com/ayushinigam/react-google-map-street-view.git#readme",
   "bugs": {
-    "url": "https://github.com/survivejs/react-component-boilerplate/issues"
+    "url": "https://github.com/ayushinigam/react-google-map-street-view/issues"
   },
   "jest": {
     "collectCoverage": true,
@@ -96,5 +96,8 @@
   "license": "MIT",
   "pre-push": [
     "test"
-  ]
+  ],
+  "dependencies": {
+    "google-maps": "^3.2.1"
+  }
 }

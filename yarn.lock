@@ -2466,6 +2466,10 @@ good-listener@^1.2.0:
   dependencies:
     delegate "^3.1.2"
 
+google-maps@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/google-maps/-/google-maps-3.2.1.tgz#c0758f2b175a4a8d110c1abb1fc4cc38c1176e06"
+
 graceful-fs@4.1.10, graceful-fs@^4.1.4:
   version "4.1.10"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.10.tgz#f2d720c22092f743228775c75e3612632501f131"
