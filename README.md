@@ -1,11 +1,11 @@
 
 # react-google-map-street-view
 
-This is a simple react component for google-maps street view. The component uses google maps api for fetching the street view.
+This is a simple react component for google-maps street view. The component uses google maps api for fetching the street view. The controls on the map can be used to navigate around, get a 360 view and switch to google-maps.
 
 In case, street view does not exist for the given address the component displays the location on google map.
 
-![](https://github.com/ayushinigam/react-google-map-street-view/blob/master/demo/demo.gif?raw=true)
+![Demo gif](https://github.com/ayushinigam/react-google-map-street-view/blob/master/demo/demo.gif?raw=true)
 
 
 ### Installing
@@ -32,3 +32,8 @@ npm install react-google-map-street-view
 * errorText (string) : Error message
 * mapStyle (object) : Style object for map container
 * textStyle (object) : Style object for default text message
+
+### Alternate Usage
+
+The component can be used for getting google map location for the address. This can be done by updating the streetView prop.
+![Demo gif](https://github.com/ayushinigam/react-google-map-street-view/blob/master/demo/demo-map.gif?raw=true)
