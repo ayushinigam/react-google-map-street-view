@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Packages should render correctly 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "border": "1px solid #000000",
+      "height": "60vh",
+      "width": "40vw",
+    }
+  }
+/>
+`;

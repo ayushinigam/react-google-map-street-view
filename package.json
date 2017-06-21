@@ -7,6 +7,7 @@
     "start": "webpack-dev-server --env dev",
     "test": "jest",
     "test:coverage": "jest --coverage",
+    "coverage": "jest --verbose --coverage && open ./coverage/lcov-report/index.html",
     "test:watch": "jest --watch",
     "test:lint": "eslint . --ignore-path .gitignore --cache",
     "gh-pages": "webpack --env ghPages",
@@ -20,7 +21,7 @@
     "prepublish": "npm run dist:es6 && npm run dist:modules",
     "postpublish": "npm run gh-pages && npm run gh-pages:deploy",
     "postinstall": "node lib/post_install.js"
-    },
+  },
   "main": "dist-modules",
   "module": "dist-es6",
   "jsnext:main": "dist-es6",
@@ -104,6 +105,7 @@
     "test"
   ],
   "dependencies": {
-    "google-maps": "^3.2.1"
+    "google-maps": "^3.2.1",
+    "react-test-renderer": "^15.5.4"
   }
 }

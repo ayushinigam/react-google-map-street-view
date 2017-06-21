@@ -38,7 +38,8 @@ class StreetView extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.address && nextProps.address !== this.props.address) {
+    if (nextProps.address && (nextProps.address !== this.props.address ||
+      nextProps.streetView !== this.props.streetView)) {
       this.setState({ error: false });
       this.displayMap();
     }
