@@ -1,0 +1,26 @@
+.github-corner svg {
+    z-index: 1000;
+}
+
+input {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+button {
+  border: transparent;
+  background: #00CCFF;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  margin-top: 30px
+}
+
+
+
+/* TODO: insert main styles of your demo here */
+/* TODO: insert default styles of your component here for easy access */
